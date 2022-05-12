@@ -40,4 +40,7 @@ int main() {
 	std::cout << &ref_a_right << std::endl;
 	
 	f(5);
+	f(x);
+	
+	change(x);
 }
